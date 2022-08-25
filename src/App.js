@@ -7,9 +7,14 @@ import AllCategories from './Components/Filter/AllCategories';
 function App() {
   return (
     <div className="App">
-      <Dishes/>
-      <AllCategories/>
-      <Cart/>
+      <div className='block'>
+        <AllCategories/>
+        <Cart/>
+      </div> 
+      <div className='block'>
+        <Dishes/>
+      </div>     
+      
     </div>
   );
 }

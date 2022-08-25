@@ -1,4 +1,9 @@
+import Dish from "./Dish";
+
 const Dishes = () => {
-	return (<div>dishessss</div>)
+	return (<div>
+		{dataDishes.map(dish => <Dish dish={dish}/>)}
+		
+		</div>)
 }
 export default Dishes;
