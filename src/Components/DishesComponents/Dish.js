@@ -1,11 +1,19 @@
+import { useState } from "react";
+import { addItemToCart } from "../../redux/cartSlice";
+import ChangeQuantity from "../Cart/ChangeQuantity";
+import { useDispatch } from "react-redux";
+
 const Dish = ({dish}) => {
+	const [quantity, setQuantity] = useState(1);
+	const dispatch = useDispatch();
+	
 	return (<div>
-		<img src={`./${dish.img}.jpg`} alt="box"/>
+		<img src={`${dish.img}.jpg`} alt="box"/>
 		<h2>{dish.name}</h2>
 		<p>$ {dish.price}</p>
-		{/* To fix later */}
-		<button>How many portions?</button>
-		<button>Add to Cart</button>
+		<ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
+		<button onClick = {() => {dispatch(addItemToCart({dish, quantity}));
+	}}>Add to Cart</button>
 	</div>)
 }
 export default Dish;

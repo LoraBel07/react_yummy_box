@@ -7,33 +7,20 @@ const dataDishes = [
 		name: 'Pasta',
 		category: 'ITALIAN'
 	},
-  
-  {
-  
-	id: 2,
-  
-	price: 50,
-  
-	img: 'shrimp',
-  
-	name: 'Shrimp',
-  
-	category: 'SEAFOOD'
-  
-  },
-  
-  {
-  
-	id: 3,
-  
-	price: 30,
-  
-	img: 'salmon',
-  
-	name: 'Salmon',
-  
-	category: 'SEAFOOD'
-  
+
+	{
+	id: 2,  
+	price: 50,  
+	img: 'shrimp',  
+	name: 'Shrimp',  
+	category: 'SEAFOOD'  
+	},
+	{
+	id: 3,  
+	price: 30,  
+	img: 'salmon',  
+	name: 'Salmon',  
+	category: 'SEAFOOD'  
   },
   
   {
