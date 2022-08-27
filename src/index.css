@@ -45,3 +45,13 @@ img {
 .icon {
   width: 20px;
 }
+button {
+  background-color: #fdeb6b;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+p, h1, h2, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}

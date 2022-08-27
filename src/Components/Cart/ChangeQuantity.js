@@ -13,9 +13,9 @@ const ChangeQuantity = ({quantity, setQuantity}) => {
 
 	return (
 		<div>
-			<button onClick={addQuantity}>+</button>
-			<span>{quantity}</span>
-			<button onClick={removeQuantity}>-</button>
+			<button onClick={addQuantity}>+1</button>
+			<span> {quantity} </span>
+			<button onClick={removeQuantity}>-1</button>
 		</div>
 	)
 }
