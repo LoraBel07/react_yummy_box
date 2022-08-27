@@ -8,7 +8,7 @@ export const slice = createSlice({
 	reducers: {
 		addItemToCart: (state, action) => {
 			state.cartItems.push({
-				dishID: action.payload.dish.id,
+				dishId: action.payload.dish.id,
 				quantity: action.payload.quantity
 			})
 		}
