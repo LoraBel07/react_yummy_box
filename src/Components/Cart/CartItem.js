@@ -5,7 +5,7 @@ const CartItem = ({cartItem}) => {
 
 console.log(cartItem)
 
-const dishes = dataDishes.find(item => item.id === cartItem.dishId);
+const dishes = dataDishes.find(item => item.id === cartItem.dishID);
 console.log(dishes);
 	return (<div>
 		<p>{dishes.name}</p>
