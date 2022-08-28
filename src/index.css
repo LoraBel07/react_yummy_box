@@ -55,3 +55,22 @@ p, h1, h2, button {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
+@media all and (max-width: 550px){
+  h1, h1{
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  img {
+    width: 200px;
+  }
+  .icon {
+    width: 15px;
+  }
+  button {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+}
